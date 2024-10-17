@@ -1,0 +1,71 @@
+
+Step 1:
+--------------------------------------------------------------
+FIND: #DRAW BOUNCY BALLS
+WRITE:
+for ball in balls:
+	ball.draw(window)
+
+FIND: #MOVE BOUNCY BALLS
+WRITE:
+for ball in balls:
+	ball.move()
+
+CLICK RUN. You should now see some pink bouncy balls bouncing around the screen!
+
+Step 2:
+------------------------------------------------------------------
+FIND: #DRAW PLAYER
+
+WRITE:
+player.draw(window)
+
+FIND: #MOVE PLAYER
+
+WRITE: 
+player.move(splat)
+
+FIND: #APPLY GRAVITY
+
+WRITE:
+player.gravity()
+
+CLICK RUN. You should now see a green ball on your screen!
+
+Try clicking the up, right, and left arrow keys on your keyboard. The green ball doesn't move yet!
+
+Step 3:
+-------------------------------------------------------------------------
+FIND: #PLAYER MOVE FUNCTION
+
+DO: Select the block that is commented out, then click ctrl + /
+       The block should now be uncommented
+
+CLICK RUN. Click the up, right, and left arrow keys. You can move the green ball around now!
+
+Step 4: 
+-----------------------------------------------------------------------------
+FIND: #COLLISION
+
+DO: Select the block that is commented out, then click ctrl + /
+       The block should now be uncommented
+
+CLICK RUN. Try to move the green ball around without letting it collide with a pink ball. When a collision happens though, you
+                     should see the game freeze and a green blob appear on the screen! 
+
+Step 5:
+----------------------------------------------------------------------------
+FIND: #GAME OVER SCREEN
+
+DO: Select the block that is commented out, then click ctrl + /
+       The block should now be uncommented
+
+FIND: the word pass right above #GAME OVER SCREEN
+
+DO: delete the word pass
+
+CLICK RUN. Play the game! When you lose, you'll see a game over screen.
+
+
+
+
