@@ -1,2 +1,2 @@
 # Bouncy-Ballz
-desktop game for USF Engineering EXPO 2024
+desktop game for USF Engineering EXPO, February 2024
